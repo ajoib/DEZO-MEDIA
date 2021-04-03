@@ -338,6 +338,80 @@ dl {
     }
 }
 
+@media (max-width: 517px) {
+    .central-banner {
+        width: 100%;
+        height: 287px;
+        background: url(../img/dezo-media-banner.jpg)no-repeat center center / cover;
+        align-items: flex-end;
+        margin-top: 59px;
+    }
+    .c-b-text {
+        margin-top: 125px;
+        width: 100%;
+        font-size: 27px;
+        color: black;
+        padding: 0px 10px;
+        font-weight: bold;
+    }
+    .c-b-title {
+        width: 100%;
+        font-size: 12px;
+        color: rgb(0, 0, 0);
+        padding: 0px 10px;
+        font-weight: bold;
+        padding-right: 191px;
+    }
+    .central-codes {
+        width: 100%;
+        background: url(../img/banner-central-links.png)no-repeat center center / cover;
+        height: 238px;
+        display: flex;
+        align-items: center;
+    }
+    .c-c-links {
+        color: white;
+        font-size: 11px;
+        margin: 132px 0px 0px 19px;
+        text-decoration: none;
+        padding: 8px;
+        border: 1px white solid;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+    .col-codes {
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 20px 3px 0px 3px;
+    }
+    .img-col {
+        width: 100%;
+        height: 100%;
+        padding: 6px;
+        transition: 0.5s;
+        cursor: pointer;
+        padding-bottom: 36px;
+    }
+    
+    .col-text-section {
+        color: white;
+        font-size: 10px;
+        padding-top: 19px;
+        margin-right: 21px;
+    }
+    .col-text-section {
+        color: white;
+        font-size: 10px;
+        padding-top: 19px;
+        margin-right: 21px;
+    }
+    .section-cols-imge {
+        width: 252px;
+        height: 237px;
+        padding-left: 10px;
+    }
+}
+
 @media (max-width: 450px ) {
     .mx-links {
         color: white;

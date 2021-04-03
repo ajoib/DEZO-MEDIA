@@ -176,10 +176,81 @@ dl {
     margin-right: 67px;
 }
 
+/***************************************************/
+
+/**********MAIN START**********/
+
+.main{
+    width: 100%;
+    background: white;
+    flex-wrap: wrap;
+}
+.main-container{
+    max-width: 1500px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #202020;
+}
+.main-title{
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0px 0px 0px 50px;
+    cursor: pointer;
+}
+.m-t-50{
+    margin-top: 50px;
+}
+.m-b-50{
+    margin-bottom: 50px;
+}
+.main-2{
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0px 0px 0px 45px;
+    cursor: pointer;
+}
+
+.main-3{
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+.fa-telegram, .fa-facebook-square{
+    color: white;
+    font-size: 18px;
+    margin: 0px 10px;
+}
+
 
 
 
 /********************MEDIA START**********************/
+
+@media (max-width: 767px) {
+    .main-3 {
+        color: white;
+        font-size: 14px;
+        font-weight: 700;
+        margin-left: 50px;
+    }
+    .section-cols-imge {
+        width: 374px;
+        height: 367px;
+        padding-left: 10px;
+    }
+    .col-text-section {
+        color: white;
+        font-size: 16px;
+        padding-top: 21px;
+        margin-right: 36px;
+    }
+}
 
 @media (max-width: 550px) {
     .central-banner {
